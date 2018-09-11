@@ -2,6 +2,12 @@
 /* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
 
 
+.transparent
+{
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+
 .zoom {
     padding: 50px;
     background-color: red;
@@ -25,7 +31,7 @@ ul {
 li {
     display: inline;
 float: left;
-padding: 20px;
+padding: 20px 120px;
 }
 
     li a:hover {
