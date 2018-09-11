@@ -1,0 +1,43 @@
+
+/* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
+
+
+.zoom {
+    padding: 50px;
+    background-color: red;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+float: left;
+padding: 20px;
+}
+
+    li a:hover {
+    background-color: #111;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+.active {
+    background-color: #4CAF50;
+}
