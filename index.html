@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="pure.css">
     <!-- Style sheet for your custom styles -->
     <link rel="stylesheet" type="text/css" href="styles.css">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <title>The most annoying website in the world</title>
   </head>
 
@@ -16,22 +16,27 @@
   <div class="pure-u-1 transparent">
 <nav>
  <ul>
-<li><a href="default.asp">Start</a></li>
-<li><a href="news.asp">Who r u?</a></li>
-<li><a href="contact.asp">Sprinkles</a></li>
-<li><a href="about.asp">Hit me up</a></li>
+<li><a href="#first">Start</a></li>
+<li><a href="#second">Most annoying</a></li>
+<li><a href="#third">Have a drink</a></li>
+<li><a href="#fourth">Sprinkles</a></li>
+<li><a href="#fifth">Person</a></li>
 </ul>
 </nav>
 </div>
+<section id="first">
 <div class="pure-g">
   <div class="lefthero pure-u-1-2">
     <img src="images/hero1.jpg" alt="hey baby"/>
   </div>
   <div class="righthero pure-u-1-2">
-    <p>Click me!</p>
+    <button class "playbutton" onclick "play()" value="PLAY">Play me!</button>
+    <audio id="audio" src="audio/hotlineloop1.mp3" ></audio>
     <h2 class="centertext">hej</h2>
   </div>
 </div>
+</section>
+<section id="second">
 <div>
     <h1>The most annoying website in the world</h1>
  <h2>Hello world!</h2>
@@ -40,8 +45,10 @@
 <!--Below is the Who R U section supposed to be-->
 <div>
 </div>
-
+</section>
+<section id="third">
 <!--Below is the Spinning OE supposed to be-->
+
 <div class="pure-g">
   <div class="pure-u-8-24 spin">
     <img src="images/oldenglish.jpg" alt="drink"/>
@@ -53,10 +60,11 @@
     <img src="images/oldenglish.jpg" alt="drink"/>
   </div>
 </div>
-
+</section>
 
 
 <!--Below is the Sprinkles section-->
+<section id="fourth">
 <div class="sprinkles">
   <img src="images/sprinkles.jpg" alt="gottamums"/>
 </div>
@@ -64,7 +72,15 @@
 <!--Below is the Hit me Up section-->
 <div>
 </div>
+</section>
 
+<!--Below is the Random Generator section-->
+<section id="fifth">
+  <p> Click to see who you really are!</p>
+<div id="randompersonDisplay"></div>
+<button onclick="newPerson()">See who you are</button>
+
+<script src="javascript.js"></script>
 </body>
 <footer>
   <div class="orange">
