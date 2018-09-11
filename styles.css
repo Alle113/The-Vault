@@ -1,5 +1,9 @@
 
 /* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
+h1
+{
+font-size: 64px;
+}
 
 
 .sectionheading
@@ -63,6 +67,7 @@ margin: 200px 200px 200px 200px;
 .centertext
 {
 text-align: center;
+padding-bottom: 10px;
 }
 
 .spin

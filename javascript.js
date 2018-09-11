@@ -16,6 +16,6 @@ function newPerson() {
 }
 
 function play(){
-       var audio = document.getElementById("audio");
+       var audio = document.getElementByTag("audio");
        audio.play();
 }
