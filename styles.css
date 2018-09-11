@@ -57,7 +57,7 @@ padding-top: 100px;
 
 .sprinkles
 {
-margin: 100px 100px 100px 100px;
+margin: 200px 200px 200px 200px;
 }
 
 .centertext
@@ -82,10 +82,6 @@ img
 width: 100%;
 }
 
-.transparent
-{
-    background-color: rgba(0, 0, 0, 0.8)
-}
 
 
 .zoom {
@@ -99,6 +95,20 @@ width: 100%;
 
 .zoom:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoomtwo {
+transition: transform .2s; /* Animation */
+
+}
+
+.zoomtwo:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.transparent
+{
+    background-color: rgba(255, 255, 0, 0.8)
 }
 
 
@@ -115,19 +125,34 @@ li {
 }
 
     li a:hover {
-    background-color: #ffff00;
+    background-color: #800080;
+    padding: 10px;
     text-decoration-style: underline wavy;
 }
 
 a {
-    display: inline-flex;
-    padding: 8px;
+    display: inline-flex
+    padding: 20px;
     background-color: none;
 }
 
 .active {
     background-color: #4CAF50;
 }
+
+.twenty
+{
+    width: 15%;
+    height: 15%;
+    padding-bottom: 20px;
+}
+
+.randompersonDisplay
+{
+    color: blue;
+}
+
+
 footer
 {
     background: orange;
