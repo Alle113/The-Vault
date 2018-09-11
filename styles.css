@@ -1,6 +1,17 @@
 
 /* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
 
+
+.sectionheading
+{
+color: #ffa500;
+font-size: 64px;
+text-align: center;
+padding-top: 20px;
+font-weight: bold;
+text-decoration: underline overline wavy orange;
+}
+
 .playbutton
 {
 background-color: #800080;
@@ -11,6 +22,11 @@ background-color: #800080;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.playbutton:hover {
+  background-color: #ffff00;
+  color: #800080;
 }
 
 .orange
@@ -31,6 +47,12 @@ background-color: #800080;
 .righthero h2
 {
 font-size: 100px;
+}
+
+.righthero
+{
+text-align: center;
+padding-top: 100px;
 }
 
 .sprinkles
@@ -88,18 +110,19 @@ ul {
 
 li {
     display: inline;
-float: left;
-padding: 20px 120px;
+    float: left;
+    padding: 20px 80px;
 }
 
     li a:hover {
-    background-color: #111;
+    background-color: #ffff00;
+    text-decoration-style: underline wavy;
 }
 
 a {
-    display: block;
+    display: inline-flex;
     padding: 8px;
-    background-color: #dddddd;
+    background-color: none;
 }
 
 .active {
