@@ -1,13 +1,13 @@
 
 var Person = [
 'Donald Trump',
-'Jan Bjorklund',
-'Kim Kardashian',
-'Jultomten',
-'Person 7',
-'Person 8',
-'Person 9',
-'Person 10'
+'Jan Björklund',
+'Någon som inte borde vara här',
+'Jimmie Åkessons halvbror',
+'En skön typ som bor vid Mariatorget',
+'Beatrisk Asks buksvåger',
+'Du verkar vara en skön typ, mejla mig',
+'Fredrik Snortare'
 ]
 
 function newPerson() {

@@ -1,10 +1,41 @@
 
+
 /* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
+
 h1
 {
 font-size: 64px;
 }
 
+.purplesection
+{
+background-color: #800080;
+}
+
+.purplesection h1, h2
+{
+color: #ff0000;
+}
+
+.firsthero {
+
+
+
+}
+
+.firsthero:hover {
+    content: url('images/hero1bw');
+}
+
+.greysection
+{
+background-color: #d3d3d3;
+}
+
+.greysection h1, h2
+{
+color: #ffffff;
+}
 
 .sectionheading
 {
