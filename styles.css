@@ -2,6 +2,11 @@
 
 /* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
 
+*, button
+{
+font-family: "Montserrat", "sans-serif";
+}
+
 h1
 {
 font-size: 64px;
