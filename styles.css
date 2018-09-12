@@ -93,6 +93,7 @@ background-color: #800080;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .playbutton:hover {
@@ -130,6 +131,16 @@ background-color: #ff0000;
 .playbuttonred:hover {
   background-color: #ffff00;
   color: #ffa500;
+}
+
+.extramargin
+{
+  margin-bottom: 20px;
+}
+
+.extrapadding
+{
+  padding-bottom: 20px!important;
 }
 
 .orange
