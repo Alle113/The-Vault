@@ -22,6 +22,27 @@ background-color: #800080;
 color: #ffa500;
 }
 
+.yellowsection
+{
+background-color: #ffff00;
+margin: 0px!important;
+}
+
+.redsection
+{
+background-color: #ff0000;
+}
+
+.red
+{
+color: #ff0000;
+}
+
+.purple
+{
+color: #800080;
+}
+
 .firsthero {
 
 }
@@ -38,12 +59,10 @@ background-color: #d3d3d3;
 
 .sectionheading
 {
-color: #ffa500;
 font-size: 64px;
 text-align: center;
 padding-top: 20px;
 font-weight: bold;
-text-decoration: underline overline wavy orange;
 }
 
 .playbutton
@@ -63,6 +82,38 @@ background-color: #800080;
   color: #800080;
 }
 
+.playbuttonyellow
+{
+background-color: #ffa500;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.playbuttonyellow:hover {
+  background-color: #ffff00;
+  color: #ffa500;
+}
+
+.playbuttonred
+{
+background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.playbuttonred:hover {
+  background-color: #ffff00;
+  color: #ffa500;
+}
+
 .orange
 {
     background-color: rgba(255,165,0, 1)
@@ -75,7 +126,7 @@ background-color: #800080;
 
 .lefthero
 {
-
+height: 100%;
 }
 
 .righthero h2
@@ -178,7 +229,7 @@ color: rgb(255,255,0);
 
 .active {
     background-color: #4CAF50;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .twenty
@@ -200,7 +251,7 @@ color: rgb(255,255,0);
 
 footer
 {
-    background-color: orange;
+    background-color: #800080;
     padding: 40px;
-    margin: 20px 0px;
+    margin: 0px 0px;
 }
