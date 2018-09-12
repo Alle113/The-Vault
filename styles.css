@@ -12,6 +12,12 @@ h1
 font-size: 64px;
 }
 
+.sectionpadding
+{
+margin-right: 64px;
+padding-left: 64px;
+}
+
 .purplesection
 {
 background-color: #800080;
@@ -25,12 +31,24 @@ color: #ffa500;
 .yellowsection
 {
 background-color: #ffff00;
-margin: 0px!important;
+margin-top: 0px;
+}
+
+.yellowsectiontwo
+{
+background-color: #ffff00;
+margin-top: -44px;
 }
 
 .redsection
 {
 background-color: #ff0000;
+}
+
+.orangesection
+{
+background-color: #ffa500;
+margin-top: -44px;
 }
 
 .red
@@ -44,7 +62,7 @@ color: #800080;
 }
 
 .firsthero {
-
+height: 101%;
 }
 
 .firsthero:hover {
@@ -166,6 +184,7 @@ padding-bottom: 10px;
 img
 {
 width: 100%;
+height: 101%;
 }
 
 
@@ -202,6 +221,13 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+ul li {
+     display: inline-block;
+     float: none;
 }
 
 li {
@@ -211,9 +237,8 @@ li {
 }
 
     li a:hover {
-    background-color: #800080;
-    padding: 10px;
-    text-decoration-style: underline;
+    padding: 0px;
+    text-decoration: underline;
 }
 
 a {
@@ -224,7 +249,8 @@ a {
 }
 
 a:hover {
-color: rgb(255,255,0);
+color: #800080;
+text-decoration: underline  #800080;
 }
 
 .active {
