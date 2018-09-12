@@ -19,12 +19,10 @@ color: #ffa500;
 
 .firsthero {
 
-
-
 }
 
 .firsthero:hover {
-    content: url('images/hero1bw');
+    img: url('images/hero1bw');
 }
 
 .greysection
@@ -159,17 +157,23 @@ li {
     li a:hover {
     background-color: #800080;
     padding: 10px;
-    text-decoration-style: underline wavy;
+    text-decoration-style: underline;
 }
 
 a {
     display: inline-flex
     padding: 20px;
     background-color: none;
+    text-decoration: none;
+}
+
+a:hover {
+color: rgb(255,255,0);
 }
 
 .active {
     background-color: #4CAF50;
+    text-decoration: underline;
 }
 
 .twenty
@@ -184,10 +188,14 @@ a {
     color: blue;
 }
 
+.footerbg
+{
+    background-image: url ("/images/donotenter.jpg")
+}
 
 footer
 {
-    background-url: images/donotenter.jpg
+    background-color: orange;
     padding: 40px;
     margin: 20px 0px;
 }

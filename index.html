@@ -9,10 +9,12 @@
     <!-- Style sheet for your custom styles -->
     <link rel="stylesheet" type="text/css" href="styles.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <title>The most annoying website in the world</title>
   </head>
 
 <body>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <div class="pure-u-1 transparent">
 <nav>
  <ul>
@@ -26,11 +28,11 @@
 </div>
 <section id="first">
 <div class="pure-g">
-  <div class="lefthero pure-u-1-2">
+  <div class="lefthero firsthero pure-u-1-2">
     <img src="images/hero1.jpg" alt="hey baby"/>
   </div>
   <div class="righthero pure-u-1-2">
-    <h2 class="centertext">Hey baby boy!</h2>
+    <h2 class="centertext">Hi!!</h2>
     <p>This is a f*cking fantastic website.</p>
     <p>It goes swish.</p>
     <p>It goes swosh.</p>
@@ -42,13 +44,16 @@
 </div>
 </section>
 <section id="second">
-<div class="greysection">
-    <h1>The most annoying website in the world</h1>
- <h2>Hello world!</h2>
- <div class="pure-u-1 zoom"><p style="color: white;">aaa</p><img src=images/a.png></div>
-
-<!--Below is the Who R U section supposed to be-->
-<div>
+  <div class="sectionheading centertext">
+    <h1>Who are you?</h1>
+  </div>
+  <div class="centertext">
+  <p style="font-size: 40px;"> Click to see who you really are!</p>
+</div>
+<div id="randompersonDisplay" class="centertext">
+</div>
+<div class="centertext">
+<button class="playbutton" onclick="newPerson()">See who you are</button>
 </div>
 </section>
 <section id="third">
@@ -82,19 +87,6 @@
 
 <!--Below is the Random Generator section-->
 <section id="fifth">
-  <div class="sectionheading centertext">
-    <h1>Who are you?</h1>
-  </div>
-  <div class="centertext">
-  <p style="font-size: 40px;"> Click to see who you really are!</p>
-</div>
-<div id="randompersonDisplay" class="centertext">
-</div>
-<div class="centertext">
-<button class="playbutton" onclick="newPerson()">See who you are</button>
-</div>
-</section>
-<section id="sixth">
   <div>
     <h1 class="sectionheading">Hit me</h1>
 <div class="zoomtwo centertext">
