@@ -62,7 +62,7 @@ color: #800080;
 }
 
 .firsthero {
-height: 101%;
+height: 100%;
 }
 
 .firsthero:hover {
@@ -97,7 +97,7 @@ background-color: #800080;
 }
 
 .playbutton:hover {
-  background-color: #ffff00;
+  background-color: #ffa500;
   color: #800080;
 }
 
@@ -116,6 +116,13 @@ background-color: #ffa500;
   background-color: #ffff00;
   color: #ffa500;
 }
+
+@media only screen and (max-width: 600px) {
+  .playbuttonyellow {
+    margin-bottom: 30px;
+}
+}
+
 
 .playbuttonred
 {
@@ -140,7 +147,7 @@ background-color: #ff0000;
 
 .extrapadding
 {
-  padding-bottom: 20px!important;
+  padding-bottom: 30px!important;
 }
 
 .orange
@@ -153,7 +160,7 @@ background-color: #ff0000;
     color: rgba(255,255,255, 1)
 }
 
-.lefthero
+.lefthero img
 {
 height: 100%;
 }
@@ -195,7 +202,7 @@ padding-bottom: 10px;
 img
 {
 width: 100%;
-height: 101%;
+height: 100%;
 }
 
 
@@ -236,24 +243,8 @@ ul {
     text-align: center;
 }
 
-ul li {
-     display: inline-block;
-     float: none;
-}
-
-li {
-    display: inline;
-    float: left;
-    padding: 20px 80px;
-}
-
-    li a:hover {
-    padding: 0px;
-    text-decoration: underline;
-}
 
 a {
-    display: inline-flex
     padding: 20px;
     background-color: none;
     text-decoration: none;
@@ -285,6 +276,56 @@ text-decoration: underline  #800080;
 {
     background-image: url ("/images/donotenter.jpg")
 }
+
+#navbar {
+  overflow: hidden;
+  background-color: #ffff00;
+  height: 40px;
+  padding-top: 20px;
+  text-align: center;
+
+}
+@media only screen and (max-width: 600px) {
+  #navbar a {
+    font-size: 12px;
+    padding-top: 2px!important;
+    padding: 2px!important;
+
+}
+}
+
+/* Navbar links */
+#navbar a {
+  color: #800080;
+  text-align: center;
+  padding: 34px;
+  text-decoration: none;
+
+}
+
+#navbar a:hover
+
+{
+  text-decoration: underline;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+
+
+
 
 footer
 {

@@ -2,12 +2,12 @@
 var Person = [
 'Donald Trump',
 'Jan Björklund',
-'Någon som inte borde vara här',
+'Dag Fredriksson',
 'Jimmie Åkessons halvbror',
-'En skön typ som bor vid Mariatorget',
-'Beatrisk Asks buksvåger',
-'Du verkar vara en skön typ, mejla mig',
-'Fredrik Snortare'
+'Jultomten',
+'Micke Persbrandt',
+'Foppa',
+'Zlatan'
 ]
 
 function newPerson() {
@@ -23,3 +23,21 @@ function play(){
 $('.remove-img').click(function(e) {
     $( this ).parent().find("img").remove();
 });
+
+
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
