@@ -19,3 +19,7 @@ function play(){
        var audio = document.getElementByTag("audio");
        audio.play();
 }
+
+$('.remove-img').click(function(e) {
+    $( this ).parent().find("img").remove();
+});

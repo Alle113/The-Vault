@@ -14,7 +14,7 @@ background-color: #800080;
 
 .purplesection h1, h2
 {
-color: #ff0000;
+color: #ffa500;
 }
 
 .firsthero {
@@ -32,10 +32,6 @@ color: #ff0000;
 background-color: #d3d3d3;
 }
 
-.greysection h1, h2
-{
-color: #ffffff;
-}
 
 .sectionheading
 {
@@ -191,7 +187,7 @@ a {
 
 footer
 {
-    background: orange;
+    background-url: images/donotenter.jpg
     padding: 40px;
     margin: 20px 0px;
 }
